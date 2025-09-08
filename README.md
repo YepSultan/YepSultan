@@ -11,9 +11,9 @@
 ## 🔧 Tech Stack  
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
 ![Bash](https://img.shields.io/badge/-GNUBash-4EAA25?style=flat&logo=gnubash)
-![ArchLinux](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
-![Linux](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
-![Html](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
+![ArchLinux](https://img.shields.io/badge/-ArchLinux-1793D1?style=flat&logo=archlinux)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux)
+![Html](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5)
 
 
 ---
