@@ -3,12 +3,12 @@
 
 # Hey, I’m Sultan 👋  
 
-<h4 style="color:#00BFFF;">Engineering student, exploring <b>C++, Python, JS, and Android dev</b></h4>
-<h4 style="color:#FF69B4;">Passionate about <b>3D & VFX (Blender, AE, Photoshop, Illustrator)</b></h4>
-<h4 style="color:#32CD32;">Currently leveling up in: backend, Git, and advanced animations for apps</h4>
-<h4 style="color:#FFD700;">Languages: Kazakh (native), Russian, English, Korean (studying)</h4>
-<h4 style="color:#FF4500;">Fun fact: I’m building projects that combine <b>code + design + creativity</b></h4>
-
+##### Engineering student, exploring **C++, Python, JS, and Android dev** 
+##### Passionate about **3D & VFX (Blender, AE, Photoshop, Illustrator)** 
+##### Currently leveling up in: backend, Git, and advanced animations for apps 
+##### Languages: Kazakh (native), Russian, English, Korean (studying) 
+##### Fun fact: I’m building projects that combine **code + design + creativity**
+$${\color{red}Red}$$
 
 ---
 
