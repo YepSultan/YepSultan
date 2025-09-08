@@ -3,12 +3,11 @@
 
 # Hey, I’m Sultan 👋  
 
-##### Engineering student, exploring **C++, Python, JS, and Android dev** 
-##### Passionate about **3D & VFX (Blender, AE, Photoshop, Illustrator)** 
-##### Currently leveling up in: backend, Git, and advanced animations for apps 
-##### Languages: Kazakh (native), Russian, English, Korean (studying) 
-##### Fun fact: I’m building projects that combine **code + design + creativity**
-$${\color{red}Red}$$
+👨🏻‍💻 Engineering student, exploring **C++, Python, JS, and Android dev** 
+🌱 Passionate about **3D & VFX (Blender, AE, Photoshop, Illustrator)** 
+⏫ Currently leveling up in: backend, Git, and advanced animations for apps 
+🌐 Languages: Kazakh (native), Russian, English, Korean (studying) 
+$${\color{Amethyst}Fun fact: I’m building projects that combine **code + design + creativity}$$
 
 ---
 
