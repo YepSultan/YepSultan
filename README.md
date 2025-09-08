@@ -1,3 +1,6 @@
+<img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=200&section=header&text=Hey%20I'm%20Sultan!&fontSize=50" />
+
+
 # Hey, I’m Sultan 👋  
 
 💻 Engineering student, exploring **C++, Python, JS, and Android dev**  
