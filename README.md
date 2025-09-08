@@ -9,7 +9,7 @@
 ---
 
 ## 🔧 Tech Stack  
-![Python](https://img.shields.io/badge/-C++-00599C?style=flat&logo=python)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
 
 
 ---
