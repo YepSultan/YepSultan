@@ -10,6 +10,10 @@
 
 ## 🔧 Tech Stack  
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
+![Bash](https://img.shields.io/badge/-GNUBash-4EAA25?style=flat&logo=gnubash)
+![ArchLinux](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
+![Linux](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
+![Html](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
 
 
 ---
