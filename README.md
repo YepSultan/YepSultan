@@ -23,5 +23,11 @@
 ## 📊 GitHub Stats  
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YepSultan&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YepSultan&layout=compact&theme=radical)  
+![GitHub Streak](https://streak-stats.demolab.com?user=YepSultan&theme=radical)
 
 ---
+
+## 🚧 Projects
+- [Booking System in C++](https://github.com/YepSultan/AutoCaffee) – File I/O + clean OOP design  
+
+--
