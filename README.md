@@ -9,16 +9,8 @@
 ---
 
 ## 🔧 Tech Stack  
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2b%2b)  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python)  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript)  
-![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat&logo=android)  
-![Blender](https://img.shields.io/badge/-Blender-F5792A?style=flat&logo=blender)  
-![After Effects](https://img.shields.io/badge/-After%20Effects-9999FF?style=flat&logo=adobeaftereffects)  
-![Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=flat&logo=adobephotoshop)  
-![Illustrator](https://img.shields.io/badge/-Illustrator-FF9A00?style=flat&logo=adobeillustrator)  
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git)  
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux)  
+![Python](https://img.shields.io/badge/-C++-00599C?style=flat&logo=python)
+
 
 ---
 
