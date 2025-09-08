@@ -9,12 +9,11 @@
 ---
 
 ## 🔧 Tech Stack  
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus)
-![Bash](https://img.shields.io/badge/-GNUBash-4EAA25?style=flat&logo=gnubash)
-![ArchLinux](https://img.shields.io/badge/-ArchLinux-1793D1?style=flat&logo=archlinux)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux)
-![Html](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5)
-
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Bash](https://img.shields.io/badge/-GNU%20Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/-ArchLinux-1793D1?style=flat&logo=archlinux&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 
 ---
 
