@@ -3,7 +3,7 @@
 
 # Hey, I’m Sultan 👋  
 
-👨🏻‍💻 Engineering student, exploring **C++, Python, JS, and Android dev** 
+👨🏻‍💻 Engineering student, exploring **C++, Python, JS** 
 
 🌱 Passionate about **3D & VFX (Blender, AE, Photoshop, Illustrator)** 
 
