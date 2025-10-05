@@ -5,8 +5,6 @@
 
 👨🏻‍💻 Engineering student, exploring **C++, Python, JS** 
 
-🌱 Passionate about **3D & VFX (Blender, AE, Photoshop, Illustrator)** 
-
 ⏫ Currently leveling up in: **backend, Git, and advanced animations for apps** 
 
 🌐 Languages: **Kazakh (native), Russian, English, Korean (studying)**
@@ -26,6 +24,11 @@
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YepSultan&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YepSultan&layout=compact&theme=radical)  
 ![GitHub Streak](https://streak-stats.demolab.com?user=YepSultan&theme=radical)
+
+---
+## 📊 LeetCode Stats
+![LeetCode Stats](https://leetcard.jacoblin.cool/TheVoid?theme=dark&font=Consolas&ext=contest)
+
 
 ---
 
