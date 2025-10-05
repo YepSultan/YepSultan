@@ -27,7 +27,7 @@
 
 ---
 ## 📊 LeetCode Stats
-![LeetCode Stats](https://leetcard.jacoblin.cool/TheVoid?theme=dark&font=Consolas&ext=contest)
+![LeetCode Stats](https://leetcard.jacoblin.cool/CjBP84KtW3?theme=dark&font=Consolas&ext=contest)
 
 
 ---
