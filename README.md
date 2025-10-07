@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently not working<br>👯 I’m looking to collaborate on nothing<br>🤝 I’m looking for more knowledge<br>🌱 I’m currently learning C++, Korean, Advanced Math<br>⚡ Fun fact I learn fast if I lock in 
+🔭 I’m currently Studying<br>🤝 I’m looking for more knowledge<br>🌱 I’m currently learning C++, Korean, Advanced Math<br>⚡ Fun fact I learn fast if I lock in 
 
 
 ## 🌐 Socials:
