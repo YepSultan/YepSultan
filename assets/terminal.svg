@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="408" viewBox="0 0 1200 408" role="img" aria-label="whoami: sultan, university student learning the machine top to bottom">
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#232833" stroke-width="0.7" opacity="0.25"/>
+  </pattern>
+  <pattern id="gridBig" width="120" height="120" patternUnits="userSpaceOnUse">
+    <path d="M120 0H0V120" fill="none" stroke="#232833" stroke-width="1.1" opacity="0.4"/>
+  </pattern>
+  <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#FF6B35"/><stop offset="1" stop-color="#FFB061"/></linearGradient>
+  <clipPath id="frame"><rect width="1200" height="408" rx="14"/></clipPath>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace; font-size: 17px; white-space: pre; }
+  @keyframes l0 { 0%,2.50% { width: 0; } 7.50%,94% { width: 234px; } 100% { width: 0; } } .l0 { animation: l0 16.0s infinite steps(21); } @keyframes l1 { 0%,10.94% { width: 0; } 11.25%,94% { width: 683px; } 100% { width: 0; } } .l1 { animation: l1 16.0s infinite linear; } @keyframes l2 { 0%,19.38% { width: 0; } 24.38%,94% { width: 326px; } 100% { width: 0; } } .l2 { animation: l2 16.0s infinite steps(30); } @keyframes l3 { 0%,27.81% { width: 0; } 28.13%,94% { width: 703px; } 100% { width: 0; } } .l3 { animation: l3 16.0s infinite linear; } @keyframes l4 { 0%,36.25% { width: 0; } 41.25%,94% { width: 306px; } 100% { width: 0; } } .l4 { animation: l4 16.0s infinite steps(28); } @keyframes l5 { 0%,44.69% { width: 0; } 45.00%,94% { width: 520px; } 100% { width: 0; } } .l5 { animation: l5 16.0s infinite linear; } @keyframes l6 { 0%,53.13% { width: 0; } 58.13%,94% { width: 326px; } 100% { width: 0; } } .l6 { animation: l6 16.0s infinite steps(30); } @keyframes l7 { 0%,61.56% { width: 0; } 61.88%,94% { width: 683px; } 100% { width: 0; } } .l7 { animation: l7 16.0s infinite linear; }
+  .cur { animation: blink 1s infinite steps(1); }
+  @keyframes blink { 50% { opacity: 0; } }
+  .run { animation: run 3s linear infinite; }
+  @keyframes run { from { transform: translateX(-300px); } to { transform: translateX(1200px); } }
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="408" fill="#111318"/>
+  <rect width="1200" height="408" fill="url(#grid)"/>
+  <rect width="1200" height="44" fill="#0C0E12"/>
+  <rect y="43" width="300" height="1.5" fill="url(#bar)" class="run"/>
+  <circle cx="30" cy="22" r="7" fill="#FF5F57"/><circle cx="54" cy="22" r="7" fill="#FEBC2E"/><circle cx="78" cy="22" r="7" fill="#28C840"/>
+  <text x="600.0" y="28" text-anchor="middle" fill="#616A7B" font-size="13" letter-spacing="2">sultan@base: ~ — zsh — 120×32</text>
+  <clipPath id="c0"><rect x="40" y="74" height="34" width="0" class="l0"/></clipPath><text x="44" y="98" clip-path="url(#c0)"><tspan fill="#4FC58B">sultan@base</tspan><tspan fill="#959DAC">:</tspan><tspan fill="#5B9BFF">~</tspan><tspan fill="#959DAC">$ </tspan><tspan fill="#EDEFF4">whoami</tspan></text><clipPath id="c1"><rect x="40" y="108" height="34" width="0" class="l1"/></clipPath><text x="44" y="132" clip-path="url(#c1)"><tspan fill="#616A7B">› </tspan><tspan fill="#FFB061">sultan. university student. learning the machine top to bottom.</tspan></text><clipPath id="c2"><rect x="40" y="142" height="34" width="0" class="l2"/></clipPath><text x="44" y="166" clip-path="url(#c2)"><tspan fill="#4FC58B">sultan@base</tspan><tspan fill="#959DAC">:</tspan><tspan fill="#5B9BFF">~</tspan><tspan fill="#959DAC">$ </tspan><tspan fill="#EDEFF4">cat mission.txt</tspan></text><clipPath id="c3"><rect x="40" y="176" height="34" width="0" class="l3"/></clipPath><text x="44" y="200" clip-path="url(#c3)"><tspan fill="#616A7B">› </tspan><tspan fill="#FFB061">hardware -> machine code -> C/C++ -> OS -> networks -> apps -> AI</tspan></text><clipPath id="c4"><rect x="40" y="210" height="34" width="0" class="l4"/></clipPath><text x="44" y="234" clip-path="url(#c4)"><tspan fill="#4FC58B">sultan@base</tspan><tspan fill="#959DAC">:</tspan><tspan fill="#5B9BFF">~</tspan><tspan fill="#959DAC">$ </tspan><tspan fill="#EDEFF4">ls ~/projects</tspan></text><clipPath id="c5"><rect x="40" y="244" height="34" width="0" class="l5"/></clipPath><text x="44" y="268" clip-path="url(#c5)"><tspan fill="#616A7B">› </tspan><tspan fill="#5B9BFF" font-weight="700">engineering-base/   study-manager/   uni-tasks/</tspan></text><clipPath id="c6"><rect x="40" y="278" height="34" width="0" class="l6"/></clipPath><text x="44" y="302" clip-path="url(#c6)"><tspan fill="#4FC58B">sultan@base</tspan><tspan fill="#959DAC">:</tspan><tspan fill="#5B9BFF">~</tspan><tspan fill="#959DAC">$ </tspan><tspan fill="#EDEFF4">./rules --short</tspan></text><clipPath id="c7"><rect x="40" y="312" height="34" width="0" class="l7"/></clipPath><text x="44" y="336" clip-path="url(#c7)"><tspan fill="#616A7B">› </tspan><tspan fill="#FFB061">1. build it first.  2. break it second.  3. no 12-hour courses.</tspan></text>
+  <text x="44" y="370"><tspan fill="#4FC58B">sultan@base</tspan><tspan fill="#959DAC">:</tspan><tspan fill="#5B9BFF">~</tspan><tspan fill="#959DAC">$ </tspan></text>
+  <rect x="197" y="353" width="10" height="21" fill="#FF6B35" class="cur"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="407" rx="14" fill="none" stroke="#232833"/>
+</svg>

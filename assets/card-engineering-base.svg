@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="250" viewBox="0 0 590 250" role="img" aria-label="Engineering Base">
+<defs>
+  <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#FF6B35"/><stop offset="1" stop-color="#FFB061"/></linearGradient>
+  <radialGradient id="g" cx="520" cy="60" r="200" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FF6B35" stop-opacity=".22"/><stop offset="1" stop-color="#FF6B35" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#232833"/></pattern>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace; }
+  .t { font-size: 26px; font-weight: 800; fill: #EDEFF4; letter-spacing: 1px; }
+  .tag { font-size: 11px; letter-spacing: 3px; fill: #FF6B35; }
+  .desc { font-size: 14.5px; fill: #959DAC; }
+  .chip { font-size: 12px; fill: #EDEFF4; }
+  .run { stroke-dasharray: 160 1520; animation: run 5s linear infinite; }
+  @keyframes run { to { stroke-dashoffset: -1680; } }
+  .ic { transform-origin: 520px 64px; animation: bob 4s ease-in-out infinite; }
+  @keyframes bob { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-5px) rotate(4deg); } }
+</style>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="#111318"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="url(#dots)" opacity=".6"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="url(#g)"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="none" stroke="#232833" stroke-width="1.5"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="none" stroke="url(#a)" stroke-width="2.5" stroke-linecap="round" class="run"/>
+<text x="28" y="46" class="tag">FLUTTER · ANDROID + LINUX</text>
+<text x="28" y="84" class="t">Engineering Base</text>
+<text x="28" y="120" class="desc">Tracker for a whole engineering curriculum:</text><text x="28" y="144" class="desc">14 areas, 188 topics, streaks, practice queue,</text><text x="28" y="168" class="desc">focus timer, XP. Fully offline, phone + desktop.</text>
+<g class="ic"><path d="M543.0,64.0 L549.9,66.3 L549.1,71.1 L541.9,71.1 L538.6,77.5 L538.6,77.5 L542.9,83.4 L539.4,86.9 L533.5,82.6 L527.1,85.9 L527.1,85.9 L527.1,93.1 L522.3,93.9 L520.0,87.0 L512.9,85.9 L512.9,85.9 L508.6,91.8 L504.2,89.5 L506.5,82.6 L501.4,77.5 L501.4,77.5 L494.5,79.8 L492.2,75.4 L498.1,71.1 L497.0,64.0 L497.0,64.0 L490.1,61.7 L490.9,56.9 L498.1,56.9 L501.4,50.5 L501.4,50.5 L497.1,44.6 L500.6,41.1 L506.5,45.4 L512.9,42.1 L512.9,42.1 L512.9,34.9 L517.7,34.1 L520.0,41.0 L527.1,42.1 L527.1,42.1 L531.4,36.2 L535.8,38.5 L533.5,45.4 L538.6,50.5 L538.6,50.5 L545.5,48.2 L547.8,52.6 L541.9,56.9 L543.0,64.0 Z M530,64 A10,10 0 1,0 510,64 A10,10 0 1,0 530,64 Z" fill="none" fill-rule="evenodd" stroke="#FF6B35" stroke-width="2.5"/><path d="M520.0,58.0 C521.3,61.1 525.0,63.9 524.6,67.8 C524.4,70.6 522.4,72.0 520.0,72.0 C517.6,72.0 515.6,70.6 515.4,67.8 C515.2,65.0 517.8,63.3 518.5,60.8 C519.1,62.8 519.6,63.3 520.0,58.0 Z" fill="#FFB061"/></g>
+<rect x="28" y="192" width="56" height="26" rx="13" fill="#FF6B35" fill-opacity=".10" stroke="#FF6B35" stroke-opacity=".5"/><text x="56" y="210" class="chip" text-anchor="middle">Dart</text><rect x="92.4" y="192" width="82" height="26" rx="13" fill="#FF6B35" fill-opacity=".10" stroke="#FF6B35" stroke-opacity=".5"/><text x="134" y="210" class="chip" text-anchor="middle">Flutter</text><rect x="182.6" y="192" width="65" height="26" rx="13" fill="#FF6B35" fill-opacity=".10" stroke="#FF6B35" stroke-opacity=".5"/><text x="215" y="210" class="chip" text-anchor="middle">Linux</text><rect x="255.6" y="192" width="82" height="26" rx="13" fill="#FF6B35" fill-opacity=".10" stroke="#FF6B35" stroke-opacity=".5"/><text x="297" y="210" class="chip" text-anchor="middle">Android</text>
+</svg>

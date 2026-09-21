@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="602" viewBox="0 0 1200 602" role="img" aria-label="The stack I am learning, from hardware to AI">
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#232833" stroke-width="0.7" opacity="0.3"/>
+  </pattern>
+  <pattern id="gridBig" width="120" height="120" patternUnits="userSpaceOnUse">
+    <path d="M120 0H0V120" fill="none" stroke="#232833" stroke-width="1.1" opacity="0.48"/>
+  </pattern>
+  <linearGradient id="ember" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#FF6B35"/><stop offset="1" stop-color="#FFB061"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#FFB061" stop-opacity="0"/><stop offset=".5" stop-color="#FFB061"/><stop offset="1" stop-color="#FFB061" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="soft" x="-200%" y="-50%" width="500%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+  <clipPath id="frame"><rect width="1200" height="602" rx="18"/></clipPath>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace; }
+  .hd { font-size: 13px; letter-spacing: 4px; fill: #616A7B; }
+  .hd b { fill: #FF6B35; }
+  .num { font-size: 13px; fill: #616A7B; }
+  .name { font-size: 17px; font-weight: 700; letter-spacing: 2px; fill: #EDEFF4; }
+  .desc { font-size: 14px; fill: #959DAC; }
+  .tool { font-size: 14px; fill: #FFB061; }
+  .nowtxt { font-size: 11px; font-weight: 700; letter-spacing: 2px; fill: #FF6B35; }
+  .edge { opacity: .25; animation: edge 6.0s infinite; }
+  @keyframes edge { 0%,100% { opacity: .25; } 8% { opacity: 1; } 30% { opacity: .25; } }
+  .slab { animation: slab 6.0s infinite; }
+  @keyframes slab { 0%,100% { fill: #111318; } 8% { fill: #1E1612; } 30% { fill: #111318; } }
+  .beam { animation: beam 3.75s cubic-bezier(.5,0,.5,1) infinite; }
+  @keyframes beam { from { transform: translateY(602px); } to { transform: translateY(-160px); } }
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="602" fill="#08090C"/>
+  <rect width="1200" height="602" fill="url(#grid)"/>
+  <text x="80" y="54" class="hd">THE STACK <tspan fill="#FF6B35">//</tspan> WHAT I AM LEARNING, BOTTOM UP</text>
+  <text x="1120" y="54" class="hd" text-anchor="end">electrons <tspan fill="#FF6B35">→</tspan> intelligence</text>
+  <line x1="50" y1="92" x2="50" y2="544" stroke="#232833" stroke-width="2"/>
+  <circle cx="50" cy="115.0" r="4" fill="#08090C" stroke="#616A7B" stroke-width="1.5"/><line x1="54" y1="115.0" x2="80" y2="115.0" stroke="#232833"/><circle cx="50" cy="173.0" r="4" fill="#08090C" stroke="#616A7B" stroke-width="1.5"/><line x1="54" y1="173.0" x2="80" y2="173.0" stroke="#232833"/><circle cx="50" cy="231.0" r="4" fill="#08090C" stroke="#616A7B" stroke-width="1.5"/><line x1="54" y1="231.0" x2="80" y2="231.0" stroke="#232833"/><circle cx="50" cy="289.0" r="4" fill="#08090C" stroke="#616A7B" stroke-width="1.5"/><line x1="54" y1="289.0" x2="80" y2="289.0" stroke="#232833"/><circle cx="50" cy="347.0" r="4" fill="#08090C" stroke="#616A7B" stroke-width="1.5"/><line x1="54" y1="347.0" x2="80" y2="347.0" stroke="#232833"/><circle cx="50" cy="405.0" r="4" fill="#08090C" stroke="#616A7B" stroke-width="1.5"/><line x1="54" y1="405.0" x2="80" y2="405.0" stroke="#232833"/><circle cx="50" cy="463.0" r="4" fill="#08090C" stroke="#616A7B" stroke-width="1.5"/><line x1="54" y1="463.0" x2="80" y2="463.0" stroke="#232833"/><circle cx="50" cy="521.0" r="4" fill="#08090C" stroke="#616A7B" stroke-width="1.5"/><line x1="54" y1="521.0" x2="80" y2="521.0" stroke="#232833"/>
+  <g class="beam">
+    <rect x="48" y="0" width="4" height="140" fill="url(#beam)"/>
+    <rect x="44" y="0" width="12" height="140" fill="url(#beam)" filter="url(#soft)"/>
+  </g>
+  
+  <g class="row" style="animation-delay:3.28s">
+    <rect x="80" y="92" width="1040" height="46" rx="8" fill="#111318" stroke="#232833" stroke-width="1" class="slab" style="animation-delay:3.28s"/>
+    <rect x="80" y="92" width="4" height="46" rx="2" fill="url(#ember)" class="edge" style="animation-delay:3.28s"/>
+    <text x="104" y="121" class="num">08</text>
+    <text x="150" y="122" class="name">AI</text>
+    <text x="500" y="121" class="desc">models, RAG, agents</text>
+    <text x="1096" y="121" class="tool" text-anchor="end">Python</text>
+    
+  </g>
+  <g class="row" style="animation-delay:2.81s">
+    <rect x="80" y="150" width="1040" height="46" rx="8" fill="#111318" stroke="#FF6B35" stroke-width="1.6" class="slab" style="animation-delay:2.81s"/>
+    <rect x="80" y="150" width="4" height="46" rx="2" fill="url(#ember)" class="edge" style="animation-delay:2.81s"/>
+    <text x="104" y="179" class="num">07</text>
+    <text x="150" y="180" class="name">APPS</text>
+    <text x="500" y="179" class="desc">phone + desktop, any screen</text>
+    <text x="1096" y="179" class="tool" text-anchor="end">Flutter / Dart</text>
+    <g><rect x="870" y="162" width="92" height="22" rx="11" fill="#FF6B35" fill-opacity=".14" stroke="#FF6B35" stroke-width="1"/><text x="916" y="177" class="nowtxt" text-anchor="middle">BUILDING</text></g>
+  </g>
+  <g class="row" style="animation-delay:2.34s">
+    <rect x="80" y="208" width="1040" height="46" rx="8" fill="#111318" stroke="#232833" stroke-width="1" class="slab" style="animation-delay:2.34s"/>
+    <rect x="80" y="208" width="4" height="46" rx="2" fill="url(#ember)" class="edge" style="animation-delay:2.34s"/>
+    <text x="104" y="237" class="num">06</text>
+    <text x="150" y="238" class="name">NETWORKS</text>
+    <text x="500" y="237" class="desc">packets, sockets, protocols</text>
+    <text x="1096" y="237" class="tool" text-anchor="end">TCP/IP</text>
+    
+  </g>
+  <g class="row" style="animation-delay:1.88s">
+    <rect x="80" y="266" width="1040" height="46" rx="8" fill="#111318" stroke="#232833" stroke-width="1" class="slab" style="animation-delay:1.88s"/>
+    <rect x="80" y="266" width="4" height="46" rx="2" fill="url(#ember)" class="edge" style="animation-delay:1.88s"/>
+    <text x="104" y="295" class="num">05</text>
+    <text x="150" y="296" class="name">OPERATING SYSTEMS</text>
+    <text x="500" y="295" class="desc">processes, memory, files</text>
+    <text x="1096" y="295" class="tool" text-anchor="end">Linux</text>
+    
+  </g>
+  <g class="row" style="animation-delay:1.41s">
+    <rect x="80" y="324" width="1040" height="46" rx="8" fill="#111318" stroke="#FF6B35" stroke-width="1.6" class="slab" style="animation-delay:1.41s"/>
+    <rect x="80" y="324" width="4" height="46" rx="2" fill="url(#ember)" class="edge" style="animation-delay:1.41s"/>
+    <text x="104" y="353" class="num">04</text>
+    <text x="150" y="354" class="name">SYSTEMS LANGUAGES</text>
+    <text x="500" y="353" class="desc">pointers, memory, speed</text>
+    <text x="1096" y="353" class="tool" text-anchor="end">C / C++</text>
+    <g><rect x="870" y="336" width="92" height="22" rx="11" fill="#FF6B35" fill-opacity=".14" stroke="#FF6B35" stroke-width="1"/><text x="916" y="351" class="nowtxt" text-anchor="middle">BUILDING</text></g>
+  </g>
+  <g class="row" style="animation-delay:0.94s">
+    <rect x="80" y="382" width="1040" height="46" rx="8" fill="#111318" stroke="#232833" stroke-width="1" class="slab" style="animation-delay:0.94s"/>
+    <rect x="80" y="382" width="4" height="46" rx="2" fill="url(#ember)" class="edge" style="animation-delay:0.94s"/>
+    <text x="104" y="411" class="num">03</text>
+    <text x="150" y="412" class="name">MACHINE CODE</text>
+    <text x="500" y="411" class="desc">registers, instructions</text>
+    <text x="1096" y="411" class="tool" text-anchor="end">x86 / ASM</text>
+    
+  </g>
+  <g class="row" style="animation-delay:0.47s">
+    <rect x="80" y="440" width="1040" height="46" rx="8" fill="#111318" stroke="#232833" stroke-width="1" class="slab" style="animation-delay:0.47s"/>
+    <rect x="80" y="440" width="4" height="46" rx="2" fill="url(#ember)" class="edge" style="animation-delay:0.47s"/>
+    <text x="104" y="469" class="num">02</text>
+    <text x="150" y="470" class="name">DIGITAL LOGIC</text>
+    <text x="500" y="469" class="desc">gates, adders, CPUs</text>
+    <text x="1096" y="469" class="tool" text-anchor="end">Nand2Tetris</text>
+    
+  </g>
+  <g class="row" style="animation-delay:0.00s">
+    <rect x="80" y="498" width="1040" height="46" rx="8" fill="#111318" stroke="#232833" stroke-width="1" class="slab" style="animation-delay:0.00s"/>
+    <rect x="80" y="498" width="4" height="46" rx="2" fill="url(#ember)" class="edge" style="animation-delay:0.00s"/>
+    <text x="104" y="527" class="num">01</text>
+    <text x="150" y="528" class="name">HARDWARE</text>
+    <text x="500" y="527" class="desc">electrons to transistors</text>
+    <text x="1096" y="527" class="tool" text-anchor="end">circuits</text>
+    
+  </g>
+</g>
+<rect x=".5" y=".5" width="1199" height="601" rx="18" fill="none" stroke="#232833"/>
+</svg>

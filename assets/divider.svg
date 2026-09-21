@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40" viewBox="0 0 1200 40">
+<defs><linearGradient id="a" x1="0" x2="1">
+  <stop offset="0" stop-color="#FF6B35" stop-opacity="0"/><stop offset=".5" stop-color="#FFB061"/><stop offset="1" stop-color="#FF6B35" stop-opacity="0"/>
+</linearGradient></defs>
+<style>.m { animation: m 4s ease-in-out infinite alternate; } @keyframes m { from { transform: translateX(-420px); } to { transform: translateX(420px); } }</style>
+<line x1="0" y1="20" x2="1200" y2="20" stroke="#232833" stroke-width="1.5"/>
+<g class="m"><rect x="420.0" y="19" width="360" height="2" fill="url(#a)"/><circle cx="600.0" cy="20" r="4" fill="#FFB061"/></g>
+<path d="M590.0 20l10-10 10 10-10 10z" fill="#08090C" stroke="#FF6B35" stroke-width="1.5"/>
+</svg>

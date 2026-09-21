@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="250" viewBox="0 0 590 250" role="img" aria-label="Uni_tasks24-03">
+<defs>
+  <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#4FC58B"/><stop offset="1" stop-color="#FFB061"/></linearGradient>
+  <radialGradient id="g" cx="520" cy="60" r="200" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#4FC58B" stop-opacity=".22"/><stop offset="1" stop-color="#4FC58B" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#232833"/></pattern>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace; }
+  .t { font-size: 26px; font-weight: 800; fill: #EDEFF4; letter-spacing: 1px; }
+  .tag { font-size: 11px; letter-spacing: 3px; fill: #4FC58B; }
+  .desc { font-size: 14.5px; fill: #959DAC; }
+  .chip { font-size: 12px; fill: #EDEFF4; }
+  .run { stroke-dasharray: 160 1520; animation: run 5s linear infinite; }
+  @keyframes run { to { stroke-dashoffset: -1680; } }
+  .ic { transform-origin: 520px 64px; animation: bob 4s ease-in-out infinite; }
+  @keyframes bob { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-5px) rotate(4deg); } }
+</style>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="#111318"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="url(#dots)" opacity=".6"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="url(#g)"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="none" stroke="#232833" stroke-width="1.5"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="none" stroke="url(#a)" stroke-width="2.5" stroke-linecap="round" class="run"/>
+<text x="28" y="46" class="tag">C++ · UNIVERSITY</text>
+<text x="28" y="84" class="t">Uni_tasks24-03</text>
+<text x="28" y="120" class="desc">Solved tasks from my university course.</text><text x="28" y="144" class="desc">Where the low-level journey started:</text><text x="28" y="168" class="desc">loops, arrays, pointers, memory.</text>
+<g class="ic"><text x="520" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#4FC58B">{ }</text></g>
+<rect x="28" y="192" width="48" height="26" rx="13" fill="#4FC58B" fill-opacity=".10" stroke="#4FC58B" stroke-opacity=".5"/><text x="52" y="210" class="chip" text-anchor="middle">C++</text><rect x="83.8" y="192" width="108" height="26" rx="13" fill="#4FC58B" fill-opacity=".10" stroke="#4FC58B" stroke-opacity=".5"/><text x="138" y="210" class="chip" text-anchor="middle">Algorithms</text>
+</svg>
