@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="590" height="250" viewBox="0 0 590 250" role="img" aria-label="Study Manager">
 <defs>
-  <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#5B9BFF"/><stop offset="1" stop-color="#FFB061"/></linearGradient>
+  <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#818CF8"/><stop offset="1" stop-color="#E879F9"/></linearGradient>
   <radialGradient id="g" cx="520" cy="60" r="200" gradientUnits="userSpaceOnUse">
-    <stop offset="0" stop-color="#5B9BFF" stop-opacity=".22"/><stop offset="1" stop-color="#5B9BFF" stop-opacity="0"/>
+    <stop offset="0" stop-color="#818CF8" stop-opacity=".22"/><stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
   </radialGradient>
-  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#232833"/></pattern>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#2A2238"/></pattern>
 </defs>
 <style>
   text { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace; }
-  .t { font-size: 26px; font-weight: 800; fill: #EDEFF4; letter-spacing: 1px; }
-  .tag { font-size: 11px; letter-spacing: 3px; fill: #5B9BFF; }
-  .desc { font-size: 14.5px; fill: #959DAC; }
-  .chip { font-size: 12px; fill: #EDEFF4; }
+  .t { font-size: 26px; font-weight: 800; fill: #F1ECFA; letter-spacing: 1px; }
+  .tag { font-size: 11px; letter-spacing: 3px; fill: #818CF8; }
+  .desc { font-size: 14.5px; fill: #A59CB8; }
+  .chip { font-size: 12px; fill: #F1ECFA; }
   .run { stroke-dasharray: 160 1520; animation: run 5s linear infinite; }
   @keyframes run { to { stroke-dashoffset: -1680; } }
   .ic { transform-origin: 520px 64px; animation: bob 4s ease-in-out infinite; }
   @keyframes bob { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-5px) rotate(4deg); } }
 </style>
-<rect x="1" y="1" width="588" height="248" rx="16" fill="#111318"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="#130F1C"/>
 <rect x="1" y="1" width="588" height="248" rx="16" fill="url(#dots)" opacity=".6"/>
 <rect x="1" y="1" width="588" height="248" rx="16" fill="url(#g)"/>
-<rect x="1" y="1" width="588" height="248" rx="16" fill="none" stroke="#232833" stroke-width="1.5"/>
+<rect x="1" y="1" width="588" height="248" rx="16" fill="none" stroke="#2A2238" stroke-width="1.5"/>
 <rect x="1" y="1" width="588" height="248" rx="16" fill="none" stroke="url(#a)" stroke-width="2.5" stroke-linecap="round" class="run"/>
 <text x="28" y="46" class="tag">FLUTTER · SUPABASE · CLAUDE</text>
 <text x="28" y="84" class="t">Study Manager</text>
 <text x="28" y="120" class="desc">University organiser: weeks, subjects, lectures,</text><text x="28" y="144" class="desc">missing work. Inbox sorts dropped files with</text><text x="28" y="168" class="desc">Claude. Syncs phone and laptop.</text>
-<g class="ic"><rect x="492" y="42" width="56" height="44" rx="6" fill="none" stroke="#5B9BFF" stroke-width="2.5"/><line x1="520" y1="42" x2="520" y2="86" stroke="#5B9BFF" stroke-width="2.5"/><path d="M500 54h12M500 64h12M528 54h12M528 64h8" stroke="#5B9BFF" stroke-width="2" stroke-linecap="round"/><circle cx="546" cy="42" r="7" fill="#FFB061"/></g>
-<rect x="28" y="192" width="82" height="26" rx="13" fill="#5B9BFF" fill-opacity=".10" stroke="#5B9BFF" stroke-opacity=".5"/><text x="69" y="210" class="chip" text-anchor="middle">Flutter</text><rect x="118.19999999999999" y="192" width="91" height="26" rx="13" fill="#5B9BFF" fill-opacity=".10" stroke="#5B9BFF" stroke-opacity=".5"/><text x="164" y="210" class="chip" text-anchor="middle">Supabase</text><rect x="217.0" y="192" width="91" height="26" rx="13" fill="#5B9BFF" fill-opacity=".10" stroke="#5B9BFF" stroke-opacity=".5"/><text x="262" y="210" class="chip" text-anchor="middle">Postgres</text><rect x="315.8" y="192" width="39" height="26" rx="13" fill="#5B9BFF" fill-opacity=".10" stroke="#5B9BFF" stroke-opacity=".5"/><text x="335" y="210" class="chip" text-anchor="middle">AI</text>
+<g class="ic"><rect x="492" y="42" width="56" height="44" rx="6" fill="none" stroke="#818CF8" stroke-width="2.5"/><line x1="520" y1="42" x2="520" y2="86" stroke="#818CF8" stroke-width="2.5"/><path d="M500 54h12M500 64h12M528 54h12M528 64h8" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/><circle cx="546" cy="42" r="7" fill="#E879F9"/></g>
+<rect x="28" y="192" width="82" height="26" rx="13" fill="#818CF8" fill-opacity=".10" stroke="#818CF8" stroke-opacity=".5"/><text x="69" y="210" class="chip" text-anchor="middle">Flutter</text><rect x="118.19999999999999" y="192" width="91" height="26" rx="13" fill="#818CF8" fill-opacity=".10" stroke="#818CF8" stroke-opacity=".5"/><text x="164" y="210" class="chip" text-anchor="middle">Supabase</text><rect x="217.0" y="192" width="91" height="26" rx="13" fill="#818CF8" fill-opacity=".10" stroke="#818CF8" stroke-opacity=".5"/><text x="262" y="210" class="chip" text-anchor="middle">Postgres</text><rect x="315.8" y="192" width="39" height="26" rx="13" fill="#818CF8" fill-opacity=".10" stroke="#818CF8" stroke-opacity=".5"/><text x="335" y="210" class="chip" text-anchor="middle">AI</text>
 </svg>

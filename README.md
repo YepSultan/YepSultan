@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-building-FF6B35?style=for-the-badge&labelColor=111318" alt="status: building">
-  <img src="https://img.shields.io/badge/mode-first%20principles-FFB061?style=for-the-badge&labelColor=111318" alt="mode: first principles">
-  <img src="https://img.shields.io/badge/os-linux-5B9BFF?style=for-the-badge&logo=linux&logoColor=white&labelColor=111318" alt="os: linux">
-  <img src="https://komarev.com/ghpvc/?username=YepSultan&style=for-the-badge&color=FF6B35&label=VISITORS" alt="profile views">
+  <img src="https://img.shields.io/badge/status-building-A855F7?style=for-the-badge&labelColor=130F1C" alt="status: building">
+  <img src="https://img.shields.io/badge/mode-first%20principles-E879F9?style=for-the-badge&labelColor=130F1C" alt="mode: first principles">
+  <img src="https://img.shields.io/badge/os-linux-818CF8?style=for-the-badge&logo=linux&logoColor=white&labelColor=130F1C" alt="os: linux">
+  <img src="https://komarev.com/ghpvc/?username=YepSultan&style=for-the-badge&color=A855F7&label=VISITORS" alt="profile views">
 </p>
 
 <p align="center">

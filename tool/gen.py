@@ -11,17 +11,17 @@ import os
 OUT = os.path.join(os.path.dirname(__file__), "..", "assets")
 os.makedirs(OUT, exist_ok=True)
 
-BG = "#08090C"
-SURFACE = "#111318"
-BORDER = "#232833"
-TEXT = "#EDEFF4"
-MUTED = "#959DAC"
-FAINT = "#616A7B"
-EMBER = "#FF6B35"
-HOT = "#FFB061"
-CORE = "#FFE9A8"
-COOL = "#5B9BFF"
-GOOD = "#4FC58B"
+BG = "#0A0710"
+SURFACE = "#130F1C"
+BORDER = "#2A2238"
+TEXT = "#F1ECFA"
+MUTED = "#A59CB8"
+FAINT = "#6D6380"
+EMBER = "#A855F7"
+HOT = "#E879F9"
+CORE = "#F5E8FF"
+COOL = "#818CF8"
+GOOD = "#F472B6"
 MONO = "'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace"
 
 
@@ -302,7 +302,7 @@ def terminal():
 <g clip-path="url(#frame)">
   <rect width="{W}" height="{H}" fill="{SURFACE}"/>
   <rect width="{W}" height="{H}" fill="url(#grid)"/>
-  <rect width="{W}" height="44" fill="#0C0E12"/>
+  <rect width="{W}" height="44" fill="#0E0A15"/>
   <rect y="43" width="300" height="1.5" fill="url(#bar)" class="run"/>
   <circle cx="30" cy="22" r="7" fill="#FF5F57"/><circle cx="54" cy="22" r="7" fill="#FEBC2E"/><circle cx="78" cy="22" r="7" fill="#28C840"/>
   <text x="{W / 2}" y="28" text-anchor="middle" fill="{FAINT}" font-size="13" letter-spacing="2">sultan@base: ~ — zsh — 120×32</text>
@@ -376,7 +376,7 @@ def stack():
   .edge {{ opacity: .25; animation: edge {cyc}s infinite; }}
   @keyframes edge {{ 0%,100% {{ opacity: .25; }} 8% {{ opacity: 1; }} 30% {{ opacity: .25; }} }}
   .slab {{ animation: slab {cyc}s infinite; }}
-  @keyframes slab {{ 0%,100% {{ fill: {SURFACE}; }} 8% {{ fill: #1E1612; }} 30% {{ fill: {SURFACE}; }} }}
+  @keyframes slab {{ 0%,100% {{ fill: {SURFACE}; }} 8% {{ fill: #1F1433; }} 30% {{ fill: {SURFACE}; }} }}
   .beam {{ animation: beam {cyc / 1.6:.2f}s cubic-bezier(.5,0,.5,1) infinite; }}
   @keyframes beam {{ from {{ transform: translateY({H}px); }} to {{ transform: translateY(-160px); }} }}
 </style>
